@@ -1,0 +1,903 @@
+#nav-text {
+    padding-left: 10px;
+    font-size: 23px;
+    color: #D70F64;;
+}
+.navbar-text{
+    position: relative;
+    right: 40px;
+    display: flex;
+}
+#login {
+    border: 1px solid #000000;
+    width: 75px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgb(85, 83, 83);
+}
+#signup{
+    border: none;
+    margin-left: 15px;
+    background-color: #D70F64;
+    color: white;
+    width: 75px;
+    border-radius: 6px;
+    height: 30px;
+    font-weight:500;
+}
+#lang{
+    margin-left: 5px;
+}
+#lang-icon{
+  margin-left: 2px;
+}
+.header-img{
+    margin-left: 800px !important; 
+    margin-top : 10px;  
+
+}
+.page{
+    background-color: rgb(241, 239, 239);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 16px;
+  /* padding-right: 90px; */
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.card-body button {
+  margin-right: 50px;
+}
+.login {
+  background-color: #fff;
+  color: #d70f64;
+  border: 2px solid #d70f64;
+}
+
+.signup {
+  background-color: #d70f64;
+  color: #fff;
+}
+
+.language-selector {
+  padding: 10px;
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  color: rgb(49, 49, 49);
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.locate, .find-food {
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.locate {
+  background-color: #fff;
+  border: 2px solid #d70f64;
+  color: #d70f64;
+}
+
+.find-food {
+  background-color: #d70f64;
+  color: white;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030; /* High enough to appear above other content */
+}   
+
+.hero-image {
+  position: relative;
+  left: 99px;
+  max-width: 50%;
+}
+
+.panda {
+  width: 200%;
+  position: absolute;
+  /* right: 50px; */
+  /* top: -3;
+  z-index: 5; */
+  margin-left: 70px;
+}
+
+.burger {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text{
+  padding: 20px;
+}
+.text h2{
+  font-size: 36px;
+  color: black;
+  font-weight: 800;
+}
+.text img{
+  width: 1200px;
+}
+
+.cities-sec{
+  padding: 20px;
+}
+
+.cities-sec h2 {
+  font-size: 36px;
+  color: black;
+  font-weight: 800;
+}
+#btn{
+  width: 100px;
+  height: 35px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  margin-left: 65px;
+}
+
+#btn:hover {
+  background-color: rgb(206, 202, 202);
+}
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+#last-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#put {
+    padding-left: 60px;
+    font-size: 36px;
+    color: rgb(49, 49, 49);
+    font-weight: 800;
+  }
+
+  .card-container {
+    background-color: #D70F64;
+    margin: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .card-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .card-image {
+    flex: 1 1 300px;
+    max-width: 400px;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .card-text {
+    flex: 1 1 400px;
+    padding: 40px;
+    color: white;
+  }
+
+  .card-text h5 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .card-text p {
+    font-size: 20px;
+    color: #eee;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card-content {
+      flex-direction: column;
+    }
+
+    .card-text {
+      padding: 20px;
+    }
+  }
+.main{
+  height: 700px; /* Desired visible height */
+  /* overflow: hidden; Hides overflow */
+  width: 100%;
+  padding: 20px; 
+}
+
+.content-sec {
+  margin:60px;
+}
+
+.content-sec h4 {
+  padding-left: 29px;
+  width: 1160px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: rgb(49, 49, 49);
+}
+.content-sec p{
+  padding-left: 29px;
+  padding-right: 30px;
+  width: 1170px;
+  font-weight: 200;
+  font-size: 17px;
+  color: rgb(105, 105, 105)
+
+}
+
+.content-sec ul{
+  color: rgb(105, 105, 105);
+  padding-left: 31px;
+  
+
+
+}
+.content-sec h5 {
+  padding-left: 29px;
+  font-weight: 700;
+  color: rgb(49, 49, 49);
+
+}
+#para{
+  margin-bottom: 2px;
+}
+.countries{
+  padding-left: 70px;
+}
+.countries a{
+padding-right: 16px;
+color: rgb(129, 127, 127);
+font-weight: 600;
+}
+.foo{
+  padding-right: 900px;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px 20px 10px;
+  font-size: 14px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-column a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-bottom .logo {
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+#nav-text{
+  padding-right: 70%;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  height: 30px;
+}
+
+.location {
+  font-weight: bold;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.signup {
+  background-color: #e21b70;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.hero-text {
+  max-width: 60%;
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.breadcrumb {
+  margin-top: 10px;
+  color: #888;
+  font-size: 14px;
+}
+
+.hero-img {
+  max-width: 35%;
+  /* height: auto; */
+}
+
+.restaurant-title {
+  padding: 20px;
+  font-size: 22px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 20px 40px;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  position: relative;
+  /* overflow: hidden; */
+  text-align: center;
+}
+
+.card1{
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  position: relative;
+  /* overflow: hidden; */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card1 img {
+   width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #e21b70;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.badge.free {
+  top: 30px;
+  background-color: #4CAF50;
+}
+
+.label {
+  background: #f06;
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+  margin: 5px auto;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+
+.karachi-cont{
+  padding-left: 80px;
+  /* width: 1160px; */
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: rgb(49, 49, 49); 
+}
+
+.karachi-cont p {
+  padding-right: 30px;
+  width: 1170px;
+  font-weight: 200;
+  font-size: 17px;
+  color: rgb(105, 105, 105)
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.download-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  flex-wrap: wrap;
+}
+
+.phones img {
+  width: 100px;
+  height: auto;
+}
+
+.download-text p {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+}
+
+.badges img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.restaurant{
+  font-size: 18px;
+  position: relative;
+  right: 90px;
+}
+.restaurant1{
+  padding-right: 80px;
+}
+
+/* DESI BBQ */
+
+.main-container {
+    margin: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .main-content {
+    display: flex;
+  }
+
+  .main-content p{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: grey;
+  }
+
+  .main-content h1{
+    padding-left: 27px;
+    padding-top: 12px;
+    font-weight: 800;
+  }
+
+  .main-itemimage {
+    padding-top: 30px;
+  }
+
+.main-itemimage img{
+  border-radius: 10px
+  ;
+}  
+.main-itemscontainer{
+  display: flex;
+  max-width: 410px;
+  height: 190px;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(216, 215, 215); */
+}
+.main-items h4 {
+  padding-left: 20px;
+  padding-top: 40px;
+  font-weight: 800;
+}
+.main-items p {
+  padding-left: 22px;
+  font-weight:700;
+}
+
+.Popular h3{
+  font-weight: 800;
+  color: #3d3c3c;
+}
+.Popular p{
+  font-size: 19px;
+  color: rgb(116, 115, 115);
+}
+
+/* for search */
+
+/* Container to align input and button */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto; /* center with margin */
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Input styling */
+.search-input {
+  flex: 1;
+  padding: 12px 20px;
+  border: 2px solid #e21b70; /* Foodpanda pink */
+  border-right: none;
+  border-radius: 50px 0 0 50px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Button styling */
+.search-button {
+  padding: 12px 30px;
+  background-color: #e21b70; /* Foodpanda pink */
+  color: white;
+  border: 2px solid #e21b70;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #c2185b; /* darker pink on hover */
+}
+
+
+.main-items{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.main-items1 {
+  /* display: flex;
+  justify-content: space-around; /* or use gap 
+  gap: 20px; /*optional: modern way to handle spacing 
+  max-width: 1200px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-itemimage1 {
+  padding-top: 30px;
+}
+
+.main-itemimage1 img {
+  border-radius: 10px;
+}
+#box-1{
+   margin-right: 90px; 
+   width: 430px;
+}
+#box-2 {
+  margin-right: 120px;
+  width: 410px;
+}
+
+#box-3{
+  margin-right: 20px;
+  width: 400px;
+}
+.main-itemscontainer1 {
+  /* display: flex;
+  width: 390px; /* adjust as needed 
+  margin-left: 34px;
+  height: 190px;
+  box-sizing: border-box;
+  border: 1px solid rgb(216, 215, 215); */
+
+  display: flex;
+  width: 410px;
+  height: 190px;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(216, 215, 215); */
+}
+
+.main-itemtext1 h4 {
+  padding-left: 20px;
+  padding-top: 40px;
+  font-weight: 800;
+}
+
+.main-itemtext1 p {
+  padding-left: 22px;
+  font-weight: 700;
+}
+
+
+/* user signup page */
+
+
+.user-signup{
+  width: 300px;
+  height: 200px;
+  margin-left: 56%;
+  position: relative;
+  bottom: 200px;
+  border: 2px solid black;
+}
+.user-signup h3{
+  padding-left: 51px;
+  padding-top: 20px;
+  font-size: 25px;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-signup button {
+  position: relative;
+  left: 80px;
+  top: 60px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+}
+.user-signup button:hover {
+  background-color: #555;
+  color: white;
+  border: none;
+}
+
+
+
+
+.admin-signup{
+  width: 300px;
+  height: 200px;
+  margin-left: 170px;
+  margin-top: 20%;
+  border: 2px solid black;
+}
+.admin-signup h3{
+  padding-left: 51px;
+  padding-top: 20px;
+  font-size: 25px;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.admin-signup button {
+  position: relative;
+  left: 80px;
+  top: 60px;
+  width: 140px;
+  height: 40px;
+  font-size: 18px;
+}
+.admin-signup button:hover {
+  background-color: #555;
+  color: white;
+  border: none;
+}
+
+
+
+.admin{
+  margin-left: 40%;
+}
+.admin h1{
+  margin-left: 25px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.admins {
+  width: 310px;
+  height: 150px;
+  border: 2px solid black;
+}
+.admins h3{
+  padding-left: 51px;
+  padding-top: 20px;
+  font-size: 25px;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.admins button {
+  position: relative;
+  left: 80px;
+  top: 30px;
+  width: 140px;
+  height: 40px;
+  font-size: 18px; 
+}
+
+.admins button:hover {
+  background-color: #555;
+  color: white;
+  border: none;
+}
+
+.inp{
+  text-align: center;
+}
+.inp input {
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.inp button {
+  width: 120px;
+  height: 29px;
+  border-radius: 20px;
+  border:none;
+  font-size: 15px;
+  background-color: #f43886;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodpanda Login</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      color: #ff2b85;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .form-group input:focus {
+      border-color: #ff2b85;
+      outline: none;
+    }
+
+    .submit-btn {
+      background-color: #ff2b85;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .submit-btn:hover {
+      background-color: #e60073;
+    }
+
+    .form-footer {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .form-footer a {
+      color: #ff2b85;
+      text-decoration: none;
+    }
+
+    .form-footer a:hover {
+      text-decoration: underline;
+    }
+
+    .forgot-password {
+      text-align: right;
+      margin-top: -10px;
+      margin-bottom: 15px;
+    }
+
+    .forgot-password a {
+      font-size: 13px;
+      color: #ff2b85;
+    }
+
+    .forgot-password a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Welcome Back!</h2>
+    <div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email1" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password1" placeholder="Enter your password" required>
+      </div>
+
+
+      <button onclick="login()" type="submit" id="login" class="submit-btn">Log In</button>
+    </div>
+
+    <div class="form-footer">
+      Don't have an account? <a href="#">Sign Up</a>
+    </div>
+  </div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
